@@ -1,0 +1,179 @@
+
+
+@keyframes backgroundAnimation1 {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  
+  .background_img_frontend{
+    display: flex;
+    object-fit: cover;
+    height: 85vh;
+    background: 
+      url("../assets/frontend.jpeg");
+    background-size: cover;
+    animation: backgroundAnimation1 15s linear infinite;
+    overflow: hidden;
+    
+  }
+
+
+
+
+ 
+  
+  @keyframes backgroundAnimationLang {
+    0% {
+      background-position: 0% 0%;
+    }
+  
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  
+  
+
+
+  
+  .animation_text_back_color {
+    background: linear-gradient(to bottom, rgb(160, 242, 196), rgb(7, 232, 71));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  /* end */
+  .text_color_cls {
+    color: white;
+    margin-top: 20px;
+    line-height: 2.3rem;
+    font-size: 20px;
+  }
+  
+  /* enf */
+  .line_hieght_differ {
+    line-height: 2rem;
+  }
+  
+  /* profile */
+  .font_size_small {
+    font-size: 11px;
+  }
+  
+  .heading_color_profile {
+    color: rgb(198, 156, 6);
+  }
+  
+  /* hover in top */
+  .card_container {
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    cursor: pointer;
+  }
+  
+  .card_container:hover {
+    opacity: 1;
+    transform: translateY(-40px);
+  }
+  
+  /* contact */
+  .contact_btn_back a {
+    color: white;
+    background: #1bbd36;
+  }
+  
+
+
+  /* back enffff----------- */
+
+
+@keyframes backgroundAnimation2 {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  
+  .background_img_backend{
+    display: flex;
+    object-fit: cover;
+    height: 85vh;
+    background: 
+      url("../assets/backend.jpg");
+    background-size: cover;
+    animation: backgroundAnimation2 15s linear infinite;
+    overflow: hidden;
+    
+  }
+
+  /* full */
+
+  @keyframes backgroundAnimation3 {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  
+  .background_img_full{
+    display: flex;
+    object-fit: cover;
+    height: 85vh;
+    background: 
+      url("../assets/fullstack.jpg");
+    background-size: cover;
+    animation: backgroundAnimation3 15s linear infinite;
+    overflow: hidden;
+    
+  }
+  /* auto */
+
+  @keyframes backgroundAnimation4 {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  
+  .background_img_auto{
+    display: flex;
+    object-fit: cover;
+    height: 85vh;
+    background: 
+      url("../assets/automation.jpg");
+    background-size: cover;
+    animation: backgroundAnimation4 15s linear infinite;
+    overflow: hidden;
+    
+  }
+  /* mm */
+  @keyframes backgroundAnimation4 {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  
+  .background_img_manual{
+    display: flex;
+    object-fit: cover;
+    height: 85vh;
+    background: 
+      url("../assets/manual.jpg");
+    background-size: cover;
+    animation: backgroundAnimation4 15s linear infinite;
+    overflow: hidden;
+    
+  }

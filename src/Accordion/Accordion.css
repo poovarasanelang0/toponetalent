@@ -1,0 +1,14 @@
+.border-red {
+    border-color: red;
+  }
+  .accordion-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  

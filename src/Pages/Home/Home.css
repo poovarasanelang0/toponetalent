@@ -1,0 +1,57 @@
+.backgroun_color{
+    background: #006994;
+    height: auto;
+}
+.btn_hover_color{
+    color: #006994;
+    font-weight: bold;
+    border: 0;
+}
+.btn_hover_color:hover{
+    background: #006994;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+.carousel-indicators .active, 
+.carousel-indicators button {
+    border-radius: 50%; 
+    width: 10px; 
+    height: 50px;
+    background-color: #000; 
+    border: none; 
+    
+}
+.carousel-inner .carousel-item img {
+    max-height: 95vh; 
+    object-fit: cover; 
+}
+.image-wrapper {
+    position: relative;
+}
+
+.overlapping-img {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    z-index: 1; 
+   
+}
+
+.a-team_color {
+    font-size: 50px;
+    color: rgb(32, 137, 179);
+    font-weight: bold;
+}
+.button_color button{
+    background: rgb(0,105,148);
+    
+}
+.button_color button:hover{
+    background: rgb(180, 149, 235);
+    
+}
+
+  
+
+  

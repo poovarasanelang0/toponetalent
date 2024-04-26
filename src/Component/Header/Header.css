@@ -1,0 +1,7 @@
+.heding_color{
+    background: linear-gradient(45deg, #ce91e8, #3333ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+   
+}
